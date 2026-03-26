@@ -31,4 +31,3 @@ for data in server_data:
     active_users.append(UserProfile(data["user_id"], data["lv"]))
 
 # 2. 讓 active_users 裡的所有物件都秀出自己的資訊
-active_users[].show_info()
